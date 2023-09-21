@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Somesh</title>
+
+    <script defer type="module" src="./js/index.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/b8addb5494.js"
+      crossorigin="anonymous"
+      defer
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="flex">
+        <div class="logo">Som<span>esh</span></div>
+        <ul class="nav-links flex" id="nav-links">
+          <button class="close-menu-btn btn"
+          id="close-menu-btn">
+          <i
+            class="fa-solid fa-xmark"
+          ></i>
+        </button>
+          <li>
+            <a href="#" class="nav-link" id="nav-link" data-secion="home"
+              >Home</a
+            >
+          </li>
+
+          <li>
+            <a href="#" class="nav-link" id="nav-link" data-secion="about"
+              >About</a
+            >
+          </li>
+
+          <li>
+            <a href="#" class="nav-link" id="nav-link" data-secion="specialities"
+              >Specialities</a
+            >
+          </li>
+
+          <li>
+            <a href="#" class="nav-link" id="nav-link" data-secion="my-work"
+              >My Work</a
+            >
+          </li>
+
+          <li>
+            <a href="#" class="nav-link" id="nav-link" data-secion="contact"
+              >Contact Me</a
+            >
+          </li>
+        </ul>
+        <button class="menu-btn btn" id="menu-btn"><i class="fa-solid fa-bars" ></i></button>
+
+        
+      </nav>
+      <section class="section home flex" id="home">
+        <h1 id="heading">SOMESH<br />JAGDHANE</h1>
+        <h2 id="sub-heading">Front-End Developer</h2>
+        <div class="btns flex">
+          <button class="btn btn-contact" id="btn-contact">Contact Now</button>
+          <button class="btn btn-download" id="btn-contact">Download CV</button>
+        </div>
+      </section>
+    </header>
+    <main>
+      <section class="section about" id="about">
+        
+        <div class="section-content">
+          <h3 class="about-title-2">About Me</h3>
+          <div class="sub-section img-section">
+            <img
+              src="./img/profile.jpg"
+              loading="lazy"
+              alt="profile-img"
+              class="profile-pic"
+            />
+          </div>
+          <div class="sub-section info-section">
+            <ul class="about-info">
+              <h3 class="title about-title-1">About Me</h3>
+                <li>
+                    I am Somesh Jagdhane a Front-End developer from india.
+                </li>
+                <li>
+                    Having the skillset to develope web apps using differnt technologies.
+                </li>
+                <li>
+                    1 year+ hands on experiance to build various kind of projects.
+                </li>
+            </ul>
+          
+          
+            <ul class="skills" id="skills">
+              <h3 class="title">Skills</h3>
+              <li class="skill">
+                <img src="./img/html.png" alt="html5" class="skill-img">
+                <h5>HTML 5</h5>
+              </li>
+              <li class="skill">
+                <img src="./img/css-3.png" alt="css3" class="skill-img">
+                <h5>CSS 3</h5>
+              </li>
+              <li class="skill">
+                <img src="./img/js.png" alt="java-script" class="skill-img">
+                <h5>Java Script</h5>
+              </li>
+              <li class="skill">
+                <img src="./img/git.png" alt="git" class="skill-img">
+                <h5>Git</h5>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="section specialities" id="specialities">
+        <h3 class="title">Specialities</h3>
+        <div class="section-content">
+            
+          <div class="speciality">
+              <i class="fa-solid fa-crop-simple speciality-icon"></i>
+              <h4>Web Designing</h4>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni vel ipsum labore nostrum, eveniet at totam corrupti modi ullam cum!</p>
+            </div>
+            
+            <div class="speciality">
+              <i class="fa-solid fa-code speciality-icon"></i>
+              <h4>Web Development</h4>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod dicta provident harum nisi animi aut iure sit eligendi, autem doloremque!</p>
+            </div>
+            
+            <div class="speciality">
+              <i class="fa-regular fa-comments speciality-icon"></i>
+              <h4>Good Communication</h4>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, minima numquam repellendus vero assumenda laboriosam vitae optio culpa quasi dolore!</p>
+            </div>
+        </div>
+      </section>
+
+     
+
+      <section class="section" id="my-work">
+        <h3 class="title">My Work</h3>
+        <div class="section-content"></div>
+      </section>
+
+      <section class="section" id="contact">
+        <h3 class="title">Contact Me</h3>
+        <div class="section-content"></div>
+      </section>
+    </main>
+    <footer></footer>
+  </body>
+</html>
