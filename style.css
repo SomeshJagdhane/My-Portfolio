@@ -83,7 +83,7 @@ p {
 }
 
 .section{
-  padding: 5% 5% 10% 5%;
+  padding: 2% 5% 10% 5%;
   margin-bottom: 50px;
   margin-inline: 3%;
   box-shadow: var(--box-shadow-2);
@@ -212,6 +212,7 @@ nav .menu-btn,
 .about{
  display: flex;
  justify-content: center;
+ padding-top: 10%;
 }
 .about-title-2{
   align-self: flex-start;
@@ -287,6 +288,104 @@ nav .menu-btn,
 }
 
 
+/* --------- My Work ----------- */
+.my-work .section-content{
+  gap: 50px;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.btn-show-more{
+  color:var(--color-grey-1);
+  transition:background 0.5s;
+}
+.btn-show-more:hover{
+  background-color: var(--color-secondary);
+}
+
+.btn-left, .btn-right{
+  background-color: var(--color-grey-2);
+  position: absolute;
+  top:50%;
+  z-index: 9;
+}
+.btn-left:hover, .btn-right:hover{
+  background-color: var(--color-grey-0);
+}
+.btn-left{
+  left: 25vmin;
+}
+.btn-right{
+  right: 25vmin;
+}
+
+.project-container{
+  width: 100%;
+  height: 520px;
+ 
+  position: relative;
+  /* border: 1px solid green; */
+ overflow: hidden;
+  display: flex;
+  justify-content: center;
+  scroll-behavior: none;
+
+}
+
+.project-gallary{
+  
+  width: 60%;
+  position: relative;
+  /* border: 1px solid red; */
+}
+
+.project{
+  padding: 5vmin;
+  width: 70%;
+  height: 70%;
+  position: absolute;
+  top:20%;
+  opacity: 0.2;
+  border-radius: 5px;
+  transition: all 0.5s;
+  background-color: var(--color-secondary);
+  
+}
+
+.project.active-project{
+  opacity: 1;
+  top:0;
+  width:100%;
+  height: 100%;
+  box-shadow: 0 0 10px #00000082;
+  z-index: 7;
+}
+.project h4{
+  color: var(--color-grey-1);
+}
+
+.indicator-dots{
+  position: absolute;
+  bottom: 4%;
+  left: 50%;
+  z-index:8;
+  justify-content: space-between;
+  transform: translateX(-50%);
+  width: 200px;
+}
+.indicator-dot{
+  width: 8px;
+  height: 8px;
+  background-color: var(--color-grey-2);
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+.indicator-dot.active-dot{
+  transform: scale(125%);
+  background-color: var(--color-white);
+  
+}
 
 @media only screen and (max-width: 600px) {
   
@@ -344,5 +443,18 @@ nav .menu-btn,
 
   .specialities .speciality{
     width: 100%;
+  }
+
+  .project-container{
+    height: 400px;
+  }
+  .btn-left{
+    left:-5vmin;
+  }
+  .btn-right{
+    right: -5vmin;
+  }
+  .project-gallary{
+    width: 85%;
   }
 }
