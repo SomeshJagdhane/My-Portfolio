@@ -87,7 +87,7 @@ li {
 }
 
 .bg-format{
-  padding: 20px;
+  padding: 10px;
   background-color: #12181b92;
   border-radius: 5px;
 }
@@ -151,7 +151,7 @@ p {
 .section{
   padding: 2% 5% 10% 5%;
   margin-bottom: 50px;
-  margin-inline: 3%;
+  margin-inline: 1.5%;
   box-shadow: var(--box-shadow-2);
 }
 .section .section-content {
@@ -591,6 +591,14 @@ footer .fa-heart{
 
 
 @media only screen and (max-width: 600px) {
+  .section{
+    padding: 5px;
+    margin: 0;
+  }
+  .bg-format{
+    padding: 5px;
+    
+  }
   /* ------- Mobile Navigation ----- */
   nav .nav-links {
     position: fixed;
@@ -602,7 +610,7 @@ footer .fa-heart{
     justify-content: space-evenly;
     align-items: center;
     background-color: var(--color-secondary);
-    transition: right 1s ease-in-out;
+    transition: right 0.5s ease-in-out;
     background-image: var(--bg-pattern-2);
   }
   .nav-links.active-menu-bar {
@@ -631,8 +639,11 @@ footer .fa-heart{
 
   /* -------- Mobile Home ------- */
 
+  .home .btns{
+    bottom: 28%;
+  }
   .home .social-media{
-    bottom: 10px;
+    bottom: 55px;
     
     right:50%;
     transform: translate(50%, 0);
