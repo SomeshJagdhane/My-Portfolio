@@ -1,4 +1,4 @@
-`use strict`;
+'use strict';
 
 const closeMenuBtn = document.getElementById(`close-menu-btn`);
 const openMenuBtn = document.getElementById(`menu-btn`);
