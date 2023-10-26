@@ -7,9 +7,10 @@
 
   --bg-pattern-2: url("data:image/svg+xml,%3Csvg width='180' height='180' viewBox='0 0 180 180' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M81.28 88H68.413l19.298 19.298L81.28 88zm2.107 0h13.226L90 107.838 83.387 88zm15.334 0h12.866l-19.298 19.298L98.72 88zm-32.927-2.207L73.586 78h32.827l.5.5 7.294 7.293L115.414 87l-24.707 24.707-.707.707L64.586 87l1.207-1.207zm2.62.207L74 80.414 79.586 86H68.414zm16 0L90 80.414 95.586 86H84.414zm16 0L106 80.414 111.586 86h-11.172zm-8-6h11.173L98 85.586 92.414 80zM82 85.586L87.586 80H76.414L82 85.586zM17.414 0L.707 16.707 0 17.414V0h17.414zM4.28 0L0 12.838V0h4.28zm10.306 0L2.288 12.298 6.388 0h8.198zM180 17.414L162.586 0H180v17.414zM165.414 0l12.298 12.298L173.612 0h-8.198zM180 12.838L175.72 0H180v12.838zM0 163h16.413l.5.5 7.294 7.293L25.414 172l-8 8H0v-17zm0 10h6.613l-2.334 7H0v-7zm14.586 7l7-7H8.72l-2.333 7h8.2zM0 165.414L5.586 171H0v-5.586zM10.414 171L16 165.414 21.586 171H10.414zm-8-6h11.172L8 170.586 2.414 165zM180 163h-16.413l-7.794 7.793-1.207 1.207 8 8H180v-17zm-14.586 17l-7-7h12.865l2.333 7h-8.2zM180 173h-6.613l2.334 7H180v-7zm-21.586-2l5.586-5.586 5.586 5.586h-11.172zM180 165.414L174.414 171H180v-5.586zm-8 5.172l5.586-5.586h-11.172l5.586 5.586zM152.933 25.653l1.414 1.414-33.94 33.942-1.416-1.416 33.943-33.94zm1.414 127.28l-1.414 1.414-33.942-33.94 1.416-1.416 33.94 33.943zm-127.28 1.414l-1.414-1.414 33.94-33.942 1.416 1.416-33.943 33.94zm-1.414-127.28l1.414-1.414 33.942 33.94-1.416 1.416-33.94-33.943zM0 85c2.21 0 4 1.79 4 4s-1.79 4-4 4v-8zm180 0c-2.21 0-4 1.79-4 4s1.79 4 4 4v-8zM94 0c0 2.21-1.79 4-4 4s-4-1.79-4-4h8zm0 180c0-2.21-1.79-4-4-4s-4 1.79-4 4h8z' fill='%23ffffff' fill-opacity='0.1' fill-rule='evenodd'/%3E%3C/svg%3E");
 
+  /* ---------- Dark Theme ----------*/
    --color-primary: #191d2b;
   --color-secondary: #27ae60;
-  --bg-format-color:#12181b92;
+  --bg-format-color:#12181b;
   --color-white: #fff;
   --color-grey-0: #f8f8f8;
   --color-grey-1: #dbe1e8;
@@ -18,7 +19,8 @@
   --color-grey-6: #12181b; 
   
   --bg-pattern: url("data:image/svg+xml,%3Csvg width='180' height='180' viewBox='0 0 180 180' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M81.28 88H68.413l19.298 19.298L81.28 88zm2.107 0h13.226L90 107.838 83.387 88zm15.334 0h12.866l-19.298 19.298L98.72 88zm-32.927-2.207L73.586 78h32.827l.5.5 7.294 7.293L115.414 87l-24.707 24.707-.707.707L64.586 87l1.207-1.207zm2.62.207L74 80.414 79.586 86H68.414zm16 0L90 80.414 95.586 86H84.414zm16 0L106 80.414 111.586 86h-11.172zm-8-6h11.173L98 85.586 92.414 80zM82 85.586L87.586 80H76.414L82 85.586zM17.414 0L.707 16.707 0 17.414V0h17.414zM4.28 0L0 12.838V0h4.28zm10.306 0L2.288 12.298 6.388 0h8.198zM180 17.414L162.586 0H180v17.414zM165.414 0l12.298 12.298L173.612 0h-8.198zM180 12.838L175.72 0H180v12.838zM0 163h16.413l.5.5 7.294 7.293L25.414 172l-8 8H0v-17zm0 10h6.613l-2.334 7H0v-7zm14.586 7l7-7H8.72l-2.333 7h8.2zM0 165.414L5.586 171H0v-5.586zM10.414 171L16 165.414 21.586 171H10.414zm-8-6h11.172L8 170.586 2.414 165zM180 163h-16.413l-7.794 7.793-1.207 1.207 8 8H180v-17zm-14.586 17l-7-7h12.865l2.333 7h-8.2zM180 173h-6.613l2.334 7H180v-7zm-21.586-2l5.586-5.586 5.586 5.586h-11.172zM180 165.414L174.414 171H180v-5.586zm-8 5.172l5.586-5.586h-11.172l5.586 5.586zM152.933 25.653l1.414 1.414-33.94 33.942-1.416-1.416 33.943-33.94zm1.414 127.28l-1.414 1.414-33.942-33.94 1.416-1.416 33.94 33.943zm-127.28 1.414l-1.414-1.414 33.94-33.942 1.416 1.416-33.943 33.94zm-1.414-127.28l1.414-1.414 33.942 33.94-1.416 1.416-33.94-33.943zM0 85c2.21 0 4 1.79 4 4s-1.79 4-4 4v-8zm180 0c-2.21 0-4 1.79-4 4s1.79 4 4 4v-8zM94 0c0 2.21-1.79 4-4 4s-4-1.79-4-4h8zm0 180c0-2.21-1.79-4-4-4s-4 1.79-4 4h8z' fill='%239C92AC' fill-opacity='0.02' fill-rule='evenodd'/%3E%3C/svg%3E");
-
+ 
+  /* -------------------------------------- */
  
 
 
@@ -33,16 +35,17 @@
 :root.light-theme{
 
   /* --------------- Light Theme ----------------- */
-  --color-primary: #fff4fa;
-  --color-secondary: #f64494;
-  --bg-format-color:#ffe1ed;
-  --color-white: #2a0a18;
+  --color-primary: #fff7f4;
+  --color-secondary: #ff883f;
+  --bg-format-color:#ffe2d1;
+  --color-white: #2a160a;
 
-  --color-grey-0: #2a2a35;
-  --color-grey-1: #2a2a35;
-  --color-grey-2: #2a0a18;
-  --color-grey-5: #fff4fa;
-  --color-grey-6: #ffe1ed;
+  --color-grey-0: #352e2a;
+  --color-grey-1: #352e2a;
+  --color-grey-2: #2a140a;
+  --color-grey-5: #fff7f4;
+  /* --color-grey-6: #ffd3ba; */
+  --color-grey-6: #fff7f2;
 
 
   --bg-pattern:url("data:image/svg+xml,%3Csvg width='180' height='180' viewBox='0 0 180 180' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M81.28 88H68.413l19.298 19.298L81.28 88zm2.107 0h13.226L90 107.838 83.387 88zm15.334 0h12.866l-19.298 19.298L98.72 88zm-32.927-2.207L73.586 78h32.827l.5.5 7.294 7.293L115.414 87l-24.707 24.707-.707.707L64.586 87l1.207-1.207zm2.62.207L74 80.414 79.586 86H68.414zm16 0L90 80.414 95.586 86H84.414zm16 0L106 80.414 111.586 86h-11.172zm-8-6h11.173L98 85.586 92.414 80zM82 85.586L87.586 80H76.414L82 85.586zM17.414 0L.707 16.707 0 17.414V0h17.414zM4.28 0L0 12.838V0h4.28zm10.306 0L2.288 12.298 6.388 0h8.198zM180 17.414L162.586 0H180v17.414zM165.414 0l12.298 12.298L173.612 0h-8.198zM180 12.838L175.72 0H180v12.838zM0 163h16.413l.5.5 7.294 7.293L25.414 172l-8 8H0v-17zm0 10h6.613l-2.334 7H0v-7zm14.586 7l7-7H8.72l-2.333 7h8.2zM0 165.414L5.586 171H0v-5.586zM10.414 171L16 165.414 21.586 171H10.414zm-8-6h11.172L8 170.586 2.414 165zM180 163h-16.413l-7.794 7.793-1.207 1.207 8 8H180v-17zm-14.586 17l-7-7h12.865l2.333 7h-8.2zM180 173h-6.613l2.334 7H180v-7zm-21.586-2l5.586-5.586 5.586 5.586h-11.172zM180 165.414L174.414 171H180v-5.586zm-8 5.172l5.586-5.586h-11.172l5.586 5.586zM152.933 25.653l1.414 1.414-33.94 33.942-1.416-1.416 33.943-33.94zm1.414 127.28l-1.414 1.414-33.942-33.94 1.416-1.416 33.94 33.943zm-127.28 1.414l-1.414-1.414 33.94-33.942 1.416 1.416-33.943 33.94zm-1.414-127.28l1.414-1.414 33.942 33.94-1.416 1.416-33.94-33.943zM0 85c2.21 0 4 1.79 4 4s-1.79 4-4 4v-8zm180 0c-2.21 0-4 1.79-4 4s1.79 4 4 4v-8zM94 0c0 2.21-1.79 4-4 4s-4-1.79-4-4h8zm0 180c0-2.21-1.79-4-4-4s-4 1.79-4 4h8z' fill='%23d9abc9' fill-opacity='0.09' fill-rule='evenodd'/%3E%3C/svg%3E");
@@ -185,7 +188,8 @@ p {
 
 nav {
   padding: 10px 8vmin;
-  background-color: var(--color-grey-6);
+  /* background-color: var(--color-grey-6); */
+  background-color: var(--bg-format-color);
   position: fixed;
   width: 100vw;
   top:0;
@@ -356,6 +360,139 @@ nav .menu-btn,
 
 
 /* --------- My Work ----------- */
+.my-work .section-content{
+  gap: 30px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+
+.project-container{
+  width: 100%;
+  height: 520px;
+ 
+  position: relative;
+  /* border: 1px solid green; */
+ overflow: hidden;
+  display: flex;
+  justify-content: center;
+  scroll-behavior: none;
+}
+
+.project-gallary{
+  
+  width: 60%;
+  position: relative;
+  /* border: 1px solid red; */
+}
+
+
+
+.project{
+  width: 70%;
+  height: 70%;
+  top:20%;
+  position: absolute;
+  opacity: 0.2;
+  border-radius: 5px;
+  transition: all 0.5s;
+  background-color: var(--color-secondary);
+  display: flex;
+
+  flex-direction: column;
+}
+.project.active-project{
+  opacity: 1;
+  top:0;
+  width:100%;
+  height: 100%;
+  box-shadow: 0 0 10px #00000082;
+  z-index: 7;
+}
+.project img{
+  object-fit: cover;
+  width: 100%;
+  height: 80%;
+  border-radius: 5px 5px 0 0;
+}
+.project .project-info{
+  padding:10px;
+  width: 100%;
+  position: relative;
+  transform: translateY(100%);
+  opacity: 0;
+  transition: opacity 1s, transform 0.5s;
+}
+.project-info h4{
+  color:var(--color-primary);
+}
+.project.active-project .project-info{
+  opacity: 1;
+  transform: translateY(0);
+}
+.project-info .project-links{
+  position: absolute;
+  top:-30px;
+  right:10px;
+  display: flex;
+}
+.project-links .project-link{
+  background-color: var(--color-primary);
+  color:var(--color-secondary);
+  padding:15px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: var(--box-shadow-1);
+}
+.project-link:first-child{
+  margin-right: 20px;
+}
+
+
+
+
+.my-work .gallery-navigation{
+  display: flex;
+  gap: 25px;
+}
+.btn-left, .btn-right{
+  color: var(--color-grey-2);
+  opacity: 0.6;
+  font-size:2rem;
+}
+.btn-left:hover, .btn-right:hover{
+  color: var(--color-grey-0);
+  opacity: 1;
+}
+
+
+.indicator-dots{
+  
+  justify-content: space-between;
+  width: 200px;
+  padding: 10px 25px;
+  border-radius: 10px;
+}
+.indicator-dot{
+  width: 6px;
+  height: 6px;
+  background-color: var(--color-grey-2);
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+.indicator-dot.active-dot{
+  transform: scale(145%);
+  background-color: var(--color-white);
+  
+}
+
 
 /* ---------- Contact Me ---------- */
 .contact .section-content{
@@ -517,6 +654,10 @@ footer .fa-heart{
   }
 
   /* ------- Mobile My Work -------- */
+  .project-gallary{
+    width: 100%;
+  }
+  
   
 
   /* -------- Mobile Contact --------- */
