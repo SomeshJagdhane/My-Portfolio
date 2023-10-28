@@ -139,7 +139,7 @@ function revealSection(entries,observer){
   });
 
 }
-const sectionObserver = new IntersectionObserver(revealSection,{root:null,threshold:0});
+const sectionObserver = new IntersectionObserver(revealSection,{root:null,threshold:0.1});
 
 allSections.forEach(section => {
   sectionObserver.observe(section)
@@ -149,15 +149,16 @@ allSections.forEach(section => {
 // ----- Reveal skills -------
 const allSkills = document.querySelectorAll(`.skill`);
 function revealSkills(entries,observer){
-  const [entry] = entries;
-  if(!entry.isIntersecting)return;
-  allSkills.forEach(skill=>{
-    
-    setTimeout(()=>skill.classList.remove(`hidden-skill`),1500);
-      
+  
+  entries.forEach(entry=>{
+    if(entry.isIntersecting)
+      allSkills.forEach(skill=>skill.classList.remove(`hidden-skill`));
+    else
+      allSkills.forEach(skill=>skill.classList.add(`hidden-skill`));
+
   })
 }
-const skillObserver = new IntersectionObserver(revealSkills,{root:null,threshold:0});
+const skillObserver = new IntersectionObserver(revealSkills,{root:null,threshold:1});
 skillObserver.observe(document.getElementById(`skills`));
 
 allSkills.forEach((skill,index)=>{
