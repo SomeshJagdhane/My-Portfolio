@@ -595,8 +595,8 @@ footer .fa-heart{
 
 
 @media only screen and (max-width: 800px) {
-  p{
-    font-size:0.8rem;
+  p,li{
+    font-size:0.9rem;
   }
   .btn{
     transform: scale(0.85);
@@ -615,16 +615,19 @@ footer .fa-heart{
   }
   nav .nav-links {
     position: fixed;
+    padding-top:60px;
     top: 0;
     right: -100vw;
     height: 100vh;
     width: 100vw;
     flex-direction: column;
+    flex-wrap: wrap;
     justify-content: flex-start;
     align-items: center;
     background-color: var(--color-secondary);
     transition: right 0.5s ease-in-out;
     background-image: var(--bg-pattern-2);
+    z-index: 10;
   }
   
   .nav-links.active-menu-bar {
@@ -632,9 +635,9 @@ footer .fa-heart{
   }
   .nav-links .nav-link {
     color: var(--color-grey-6);
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-weight: 500;
-    margin-top:50px;
+    margin-top:40px;
   }
 
   .nav-link::after {
@@ -700,9 +703,16 @@ footer .fa-heart{
 
 /* -------- Mobile landscape ------- */
 @media only screen and (max-height: 600px){
+  /* ------- Landscape Home ------ */
   .home .btns{
     bottom: 12%;
   }
+
+  /* -------- Landscape nav --------- */
+  
+ 
+
+  /* -------- Landscape my-work ----------- */
   .project-gallary{
     width:60%;
   }
@@ -713,4 +723,5 @@ footer .fa-heart{
     height:60%;
   }
   
+
 }
