@@ -658,6 +658,7 @@ footer .fa-heart{
   }
   .about .profile-pic {
     width: 70vmin;
+    background-color: var(--color-secondary);
   }
   
   .about .section-content {
