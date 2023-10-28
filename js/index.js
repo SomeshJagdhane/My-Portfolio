@@ -42,14 +42,17 @@ contactBtn.addEventListener(`click`,()=>{
 
 let oldScrollPos = window.scrollY;
 window.onscroll = function () {
+  const homeSection = document.getElementById(`home`);
+
+  if(window.scrollY < homeSection.offsetHeight)return;
   const navHeight = navEl.offsetHeight;
   let newScrollPos = window.scrollY;
   if (newScrollPos > oldScrollPos) navEl.style.top = `-${navHeight}px`;
   else navEl.style.top = 0;
 
   oldScrollPos = newScrollPos;
+  
 };
-
 // --------- My Work ----------------
 
 let currentProj = 1;

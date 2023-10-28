@@ -180,7 +180,7 @@ p {
 }
 .section.hidden-section{
   opacity: 0;   
-  transform: translateX(-75%);
+  transform: translateX(-45%);
 }
 .section .section-content {
   display: flex;
@@ -273,7 +273,6 @@ nav .menu-btn,
   position: relative;
 }
 .home .btns{
-  margin-top: 60px;
   gap: 30px;
   position: absolute;
   bottom: 20%;
@@ -371,7 +370,8 @@ nav .menu-btn,
 
 /* --------- My Work ----------- */
 .my-work .section-content{
-  gap: 30px;
+  /* gap: 30px; */
+  gap:1.5vmin;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -595,6 +595,12 @@ footer .fa-heart{
 
 
 @media only screen and (max-width: 800px) {
+  p{
+    font-size:0.8rem;
+  }
+  .btn{
+    transform: scale(0.85);
+  }
   .section{
     padding: 25px 5px;
     margin: 40px 0;
@@ -674,7 +680,12 @@ footer .fa-heart{
   .project-gallary{
     width: 100%;
   }
-  
+  .project-container{
+    height:350px;
+  }  
+  .gallery-navigation{
+    transform: scale(0.85);
+  }
   
 
   /* -------- Mobile Contact --------- */
@@ -687,4 +698,19 @@ footer .fa-heart{
 
 }
 
-
+/* -------- Mobile landscape ------- */
+@media only screen and (max-height: 600px){
+  .home .btns{
+    bottom: 12%;
+  }
+  .project-gallary{
+    width:60%;
+  }
+  .project-container{
+    height: 250px;
+  }
+  .project img{
+    height:60%;
+  }
+  
+}
