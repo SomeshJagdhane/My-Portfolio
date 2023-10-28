@@ -168,4 +168,18 @@ allSkills.forEach((skill,index)=>{
 })
 
 
-
+// Receive input cridentials from contact form to the google sheet
+const scriptURL = 'https://script.google.com/macros/s/AKfycbww3EZuvL6VdV6mKxqdgMpoIPrKT0PJJqmCm9ZMB78aZkWuyWIXmju7hfY_ybQcqL1zYw/exec'
+const form = document.forms['submit-to-google-sheet']
+const sumbitMsg = document.querySelector(`.msg-sent`);
+form.addEventListener('submit', e => {
+  e.preventDefault()
+  fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+    .then(response => {
+      console.log('Success!', response)
+      sumbitMsg.innerHTML=`Your message sent successfully!`;
+      form.reset();
+      setTimeout(()=>sumbitMsg.innerHTML=``,7000);
+  })
+    .catch(error => console.error('Error!', error.message))
+})

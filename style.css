@@ -578,6 +578,12 @@ nav .menu-btn,
   margin-inline: auto;
   
 }
+.contact .msg-sent{
+  margin-top: 20px;
+  text-align: center;
+  color:var(--color-secondary);
+  font-size:1.2rem;
+}
 
 /* -------- Footer -------- */
 footer p{
