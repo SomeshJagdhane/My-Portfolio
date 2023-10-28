@@ -58,7 +58,6 @@ html {
 }
 body {
   background-color: var(--color-primary);
- 
 }
 body::after{
   content: '';
@@ -197,7 +196,7 @@ nav {
   padding: 10px 8vmin;
   background-color: var(--bg-format-color);
   position: fixed;
-  width: 100vw;
+  width: 100%;
   top:0;
   left:0;
   align-items: center;
@@ -469,6 +468,7 @@ nav .menu-btn,
 
 .my-work .gallery-navigation{
   display: flex;
+  width: 100%;
   gap: 25px;
 }
 .btn-left, .btn-right{
@@ -705,7 +705,7 @@ footer .fa-heart{
 @media only screen and (max-height: 600px){
   /* ------- Landscape Home ------ */
   .home .btns{
-    bottom: 12%;
+    bottom: 15%;
   }
 
   /* -------- Landscape nav --------- */
