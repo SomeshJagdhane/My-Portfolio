@@ -96,6 +96,8 @@ btnLeft.addEventListener(`click`, function () {
   changeProject(currentProj);
 });
 
+
+
 dotContainer.addEventListener(`click`, function (e) {
   const targetDot = e.target;
   if (!targetDot.classList.contains(`indicator-dot`)) return;

@@ -470,6 +470,7 @@ nav .menu-btn,
   display: flex;
   width: 100%;
   gap: 25px;
+  justify-content: center;
 }
 .btn-left, .btn-right{
   color: var(--color-grey-2);
@@ -596,7 +597,7 @@ footer .fa-heart{
 
 @media only screen and (max-width: 800px) {
   p,li{
-    font-size:0.9rem;
+    font-size:0.83rem;
   }
   .btn{
     transform: scale(0.85);
@@ -684,7 +685,9 @@ footer .fa-heart{
     width: 100%;
   }
   .project-container{
-    height:350px;
+    /* height:350px; */
+    height: 450px;
+    width:100%;
   }  
   .gallery-navigation{
     transform: scale(0.85);
