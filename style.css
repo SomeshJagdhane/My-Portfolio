@@ -284,6 +284,10 @@ nav .menu-btn,
  justify-content: center;
  padding-top: 10%;
 }
+.about .profile-pic{
+  background-color: var(--color-secondary);
+
+}
 .about-title-2{
   align-self: flex-start;
 }
@@ -668,7 +672,6 @@ footer .fa-heart{
   }
   .about .profile-pic {
     width: 70vmin;
-    background-color: var(--color-secondary);
   }
   
   .about .section-content {

@@ -108,6 +108,47 @@ dotContainer.addEventListener(`click`, function (e) {
 
 changeProject(currentProj);
 
+// ------------ Change project by mouse or touch dragging ---------------
+
+
+let oldX = 0;
+let newX = 0;
+
+projectGallary.addEventListener(`mousedown`,e=>{
+  oldX=e.clientX;
+});
+
+projectGallary.addEventListener(`mouseup`,e=>{
+  moveProject(e.clientX);
+});
+
+projectGallary.addEventListener(`touchstart`,e=>{
+  oldX=e.touches[0].clientX;
+  // console.log(oldX);
+});
+
+projectGallary.addEventListener(`touchend`,e=>{
+  moveProject(e.changedTouches[0].clientX);
+  // console.log(e.changedTouches[0].clientX);
+});
+
+function moveProject(clientX){
+  newX = clientX;
+  const dragThreshold=oldX-newX;
+  if(dragThreshold>=50){
+    console.log(`move next`);
+    currentProj=nextProj();
+    changeProject(currentProj);
+  }
+  if(dragThreshold<=-50){
+    console.log(`move back`);
+    currentProj=prevProj();
+    changeProject(currentProj);
+  }
+}
+
+
+
 // ---- Change Theme -----------
 let themeLight = JSON.parse(localStorage.getItem(`themeLight`)) || false;
 changeTheme();
