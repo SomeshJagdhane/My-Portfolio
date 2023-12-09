@@ -428,6 +428,7 @@ nav .menu-btn,
   object-fit: cover;
   width: 100%;
   height: 80%;
+  object-position: top;
   border-radius: 5px 5px 0 0;
 }
 .project .project-info{
@@ -539,6 +540,7 @@ nav .menu-btn,
 .contact .social-media .btn-download{
  grid-column: 1 / -1;
  background-color: var(--color-secondary);
+ text-align: center;
 }
 
 .contact .right{
@@ -710,23 +712,24 @@ footer .fa-heart{
 /* -------- Mobile landscape ------- */
 @media only screen and (max-height: 600px){
   /* ------- Landscape Home ------ */
-  .home .btns{
+  /* .home .btns{
     bottom: 15%;
-  }
+  } */
 
   /* -------- Landscape nav --------- */
   
  
 
   /* -------- Landscape my-work ----------- */
-  .project-gallary{
-    width:60%;
-  }
+ 
   .project-container{
-    height: 250px;
+    height: 280px;
+  }
+  .project-gallary{
+    width:65%;
   }
   .project img{
-    height:60%;
+    height:70%;
   }
   
 

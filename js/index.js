@@ -108,6 +108,10 @@ dotContainer.addEventListener(`click`, function (e) {
 
 changeProject(currentProj);
 
+document.getElementById(`btn-show-more`).addEventListener(`click`,event=>{
+  window.open("https://github.com/SomeshJagdhane","_blank");
+});
+
 // ------------ Change project by mouse or touch dragging ---------------
 
 
